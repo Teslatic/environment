@@ -60,7 +60,9 @@
                     "trailing_diamond": "",
                     "properties": {
                         "prefix": "  ",
-                        "style": "folder"
+                        "enable_hyperlink": false,
+                        "mixed_threshold": 4,
+                        "style": "mixed"
                     }
                 },
                 {
@@ -111,7 +113,16 @@
                         "prefix": "  "
                     }
                 },
-
+                {
+                    "type": "python",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#100e23",
+                    "background": "#906cff",
+                    "properties": {
+                      "prefix": " \uE235 "
+                    }
+                },
                 {
                     "type": "root",
                     "style": "powerline",
