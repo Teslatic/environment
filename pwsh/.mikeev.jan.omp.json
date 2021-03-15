@@ -87,18 +87,6 @@
                     }
                 },
                 {
-                    "type": "executiontime",
-                    "style": "powerline",
-                    "powerline_symbol": "\uE0B0",
-                    "foreground": "#ffffff",
-                    "background": "#8800dd",
-                    "properties": {
-                      "threshold": 500,
-                      "style": "austin",
-                      "prefix": " <#fefefe>\ufbab</> "
-                    }
-                  },
-                {
                     "type": "node",
                     "style": "powerline",
                     "powerline_symbol": "",
@@ -121,6 +109,18 @@
                     "background": "#906cff",
                     "properties": {
                       "prefix": " \uE235 "
+                    }
+                },
+                {
+                    "type": "executiontime",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#8800dd",
+                    "properties": {
+                      "threshold": 500,
+                      "style": "austin",
+                      "prefix": " <#fefefe>\ufbab</> "
                     }
                 },
                 {
