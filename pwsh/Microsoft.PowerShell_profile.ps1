@@ -19,7 +19,6 @@ $env:PYTHONIOENCODING = "UTF-8"
 Set-PoshPrompt -Theme C:\Code\environment\pwsh\.mikeev.jan.omp.json
 clear
 
-Invoke-Expression "C:\Code\hlp\v1\Navi21\PerfBatFiles\pwsh_env.ps1"
 $Env:Path += ";C:\'Program Files'\7-Zip\"
 $Env:Analysis="C:\Users\maevans\Documents\LocalAnalysis\"
 $Env:LocalAnalysis="C:\Users\maevans\Documents\LocalAnalysis\"
