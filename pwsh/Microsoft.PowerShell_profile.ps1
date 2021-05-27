@@ -12,8 +12,17 @@ Import-Module "$Env:_CONDA_ROOT\shell\condabin\Conda.psm1"
 Add-CondaEnvironmentToPrompt
 #/CONDA STUFF
 
+
+#Needed for Python 2.x to play nice with Powershell
+$env:PYTHONIOENCODING = "UTF-8"
+
 Set-PoshPrompt -Theme C:\Code\environment\pwsh\.mikeev.jan.omp.json
 clear
 
-
+Invoke-Expression "C:\Code\hlp\v1\Navi21\PerfBatFiles\pwsh_env.ps1"
+$Env:Path += ";C:\'Program Files'\7-Zip\"
+$Env:Analysis="C:\Users\maevans\Documents\LocalAnalysis\"
+$Env:LocalAnalysis="C:\Users\maevans\Documents\LocalAnalysis\"
+$Env:Cyberpunk="C:\Users\maevans\Documents\Analysis\Cyberpunk 2077"
 function update-powershell {iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"}
+Set-Alias -Name go -Value C:\code\hlp\go.ps1
